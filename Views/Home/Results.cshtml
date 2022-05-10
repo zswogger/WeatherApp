@@ -1,0 +1,27 @@
+﻿@model WeatherApp.Models.WeatherData.root
+
+<div>
+    <h4>@Model.name</h4>
+    <hr />
+    <dl class="row">
+        <dt>Current Temperature: </dt>
+        <dd>@Model.Main.temp &#176F</dd>
+        <dt>High: </dt>
+        <dd>@Model.Main.temp_max &#176F</dd>
+        <dt>Low: </dt>
+        <dd>@Model.Main.temp_min &#176F</dd>
+        <dt>Wind Speed: </dt>
+        <dd>@Model.Wind.speed MPH</dd>
+        <dt>Humidity: </dt>
+        <dd>@Model.Main.humidity</dd>
+        <dt>Sunrise: </dt>
+        <dd>@Model.Sys.sunrise</dd>
+        <dt>Sunset: </dt>
+        <dd>@Model.Sys.sunset</dd>
+    </dl>
+</div>
+
+<div>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    <a asp-action="Index">Back to List</a>
+</div>
