@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xlI/FCBO4HXF2aNQrEJhL2MrQMUtiqhujCLYVM8XRAA=",
+  "Hash": "6Gy5Va5atXjyS0EzdTeyXVgDTFpgzjdyPI7vZzY2Kf0=",
   "Source": "WeatherApp",
   "BasePath": "_content/WeatherApp",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\zswogger\\source\\repos\\WeatherApp\\wwwroot\\css\\Style.css",
+      "SourceId": "WeatherApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\zswogger\\source\\repos\\WeatherApp\\wwwroot\\",
+      "BasePath": "_content/WeatherApp",
+      "RelativePath": "css/Style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Style.css"
     },
     {
       "Identity": "C:\\Users\\zswogger\\source\\repos\\WeatherApp\\wwwroot\\favicon.ico",

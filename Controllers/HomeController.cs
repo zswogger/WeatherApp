@@ -30,10 +30,11 @@ namespace WeatherApp.Controllers
                     string url = string.Format("https://api.openweathermap.org/data/2.5/weather?q={0}&units=imperial&appid={1}", city, "700502a66a4f346702277feff64c0462");
                     try
                     {
+                        // Generate API request
                         var json = web.DownloadString(url);
+
+                        // Parse Json data into weather data object
                         WeatherData.root data = JsonConvert.DeserializeObject<WeatherData.root>(json);
-                        city = char.ToUpper(city[0]) + city.Substring(1);
-                        data.name = city;
 
                         return View(data);
                     }
